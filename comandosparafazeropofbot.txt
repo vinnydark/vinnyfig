@@ -1,4 +1,4 @@
-Comandos bot do pacoca termux
+Comandos bot do vinny termux
 
 
 $ termux-setup-storage
