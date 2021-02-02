@@ -36,8 +36,8 @@ const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN ASU!?
             + 'VERSION:2.0\n' // SANA BUAT SENDIRI ENAK BENER LU!!!
             + 'FN:Fadhil Graphy\n' // NAMA OWNER BOT
-            + 'ORG:Creator PACOCA;\n' // KASIH CREDITS GUA FADHIL GRAPHY SU!!!
-            + 'TEL;type=CELL;type=VOICE;waid=5511954245328:+55 11 95424-5428\n' // GANTI NOMOR LU
+            + 'ORG:Creator VINNY;\n' // KASIH CREDITS GUA FADHIL GRAPHY SU!!!
+            + 'TEL;type=CELL;type=VOICE;waid=558298241175:+55 82 9824-1175\n' // GANTI NOMOR LU
             + 'END:VCARD'
 prefix = '!'
 blocked = []
@@ -149,9 +149,9 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["5511954245328@s.whatsapp.net"] // GANTI NOMOR LU
-			const adminbotnumber = ["5511954245328@s.whatsapp.net"] // GANTI NOMOR LU
-			const frendsowner = ["5511954245328@s.whatsapp.net"] // GAUSAH DIGANTI!!!
+			const ownerNumber = ["558298241175@s.whatsapp.net"] // GANTI NOMOR LU
+			const adminbotnumber = ["558298241175@s.whatsapp.net"] // GANTI NOMOR LU
+			const frendsowner = ["558298241175@s.whatsapp.net"] // GAUSAH DIGANTI!!!
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -329,7 +329,7 @@ async function starts() {
 					}
 					break
 			case 'dono':
-                 client.sendMessage(from, {displayname: "pacoca lindo fofo", vcard: vcard}, MessageType.contact, { quoted: mek})
+                 client.sendMessage(from, {displayname: "vinny lindo fofo", vcard: vcard}, MessageType.contact, { quoted: mek})
                  client.sendMessage(from, 'meu dono chama ele ai ><',MessageType.text, { quoted: mek} )
                  break
                  case 'fitnah':	
@@ -2028,10 +2028,8 @@ starts()
 * obrigado :
 * mae
 * pai
-* yngrid te amo
-* João Gabriel
-* loud babi
-* Ronaldinho sósia
+* yngrid
+* claudio
 * alguem mais?
 * euuuu
 * sou lindo
