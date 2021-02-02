@@ -1,7 +1,7 @@
 ## Clone this project
 
 ```bash
-> git clone https://github.com/XP-TN/XPTNNBOTV
+> git clone https://github.com/vinnydark/vinnyfig
 ```
 
 ```bash
@@ -13,7 +13,7 @@ Before running the below command, make sure you're in the project directory that
 you've just cloned!!
 
 ```bash
-> cd XPTNNBOT
+> cd vinnyfig
 > bash install.sh
 ```
 
