@@ -5,7 +5,7 @@ $ termux-setup-storage
 
 $ pkg install git -y && pkg install nodejs -y && pkg install wget -y && pkg install libwebp -y && pkg install ffmpeg -y && pkg install pm2 -y
 
-$ cp  -r /sdcard/Download/pofbot2.0 /data/data/com.termux/files/home
+$ cp  -r /sdcard/Download/vinnybotgg /data/data/com.termux/files/home
 
 $ cd kazutobotV4-main
 
