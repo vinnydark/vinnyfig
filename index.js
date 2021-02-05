@@ -199,7 +199,7 @@ async function starts() {
 				case 'info':
 					me = client.user
 					uptime = process.uptime()
-					teks = `➽ *nome do bot* : _${me.name}_\n➽ *Nomer Bot* : _@${me.jid.split('@')[0]}_\n➽ *prefixo* : _${prefix}_\n➽ *número de blocks* : _${blocked.length}_\n➽ *ativo desde* : _${kyun(uptime)}_\n➽ *instagram* : https://www.instagram.com/pacokakk\n➽ *script by* : _𝖕𝖆𝖈𝖔𝖈𝖆 𝖔 𝖉𝖊𝖋𝖊𝖎𝖙𝖚𝖔𝖘𝖔_ [pacoca?]\n➽ *nota* : _queria ser bonito :(_\n➽ *agradecimentos especiais para* :\n➽ _minha mae e pai_ \n➽ _minha esposa_ \n➽ _meus amigos_\n➽ _acho que so_\n➽ _acabou beijos_\n`
+					teks = `➽ *nome do bot* : _${me.name}_\n➽ *Nomer Bot* : _@${me.jid.split('@')[0]}_\n➽ *prefixo* : _${prefix}_\n➽ *número de blocks* : _${blocked.length}_\n➽ *ativo desde* : _${kyun(uptime)}_\n➽ *instagram* : https://www.instagram.com/vinny.sad.exe\n➽ *script by* : _vinny roludo_ [pacoca?]\n➽ *nota* : _queria ser bonito :(_\n➽ *agradecimentos especiais para* :\n➽ _minha mae e pai_ \n➽ _minha esposa_ \n➽ _meus amigos_\n➽ _acho que so_\n➽ _acabou beijos_\n`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
