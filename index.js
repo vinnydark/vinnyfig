@@ -142,7 +142,7 @@ async function starts() {
 				only: {
 					group: '*esse comando só pode ser usado em grupos!!*',
 					ownerG: '*esse comando só pode ser usado pelo grupo proprietário!*',
-					ownerB: '*esse comando só pode ser usado pelo pacoca!* ',
+					ownerB: '*esse comando só pode ser usado pelo vinny!* ',
 					admin: '*esse comando só pode ser usado por administradores de grupo!*',
 					Badmin: '*esse comando so pode ser usado se o bot for admin*'
 				}
@@ -342,7 +342,7 @@ async function starts() {
                     costum(pesan, isi, pesan2)
                     break
                 case 'fakereplay':
-                   client.reply(from, 'ange mas', 'mending lari', "0823-877101916")
+                   client.reply(from, 'ange mas', 'mending lari', "082998241175")
                    break
                 case 'but':
                     client.reply(from, 'asw', Message.Type.text)
